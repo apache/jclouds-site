@@ -400,7 +400,7 @@ It is usually better to use a repeatable payload like `ByteSource` instead of `I
 since this allows parallel uploads and retrying on errors.
 
 Our integration tests ensure that we don't rebuffer in memory on upload: 
-[testUploadBigFile](http://github.com/jclouds/jclouds/blob/master/core/src/test/java/org/jclouds/http/BaseHttpCommandExecutorServiceIntegrationTest.java).
+[testUploadBigFile](http://github.com/apache/jclouds/blob/master/core/src/test/java/org/jclouds/http/BaseHttpCommandExecutorServiceIntegrationTest.java).
 
 This is verified against all of our HTTP clients, conceding that it isn't going to help limited
 environments such as Google App Engine.

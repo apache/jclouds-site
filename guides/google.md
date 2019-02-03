@@ -12,7 +12,7 @@ Currently, [Google Compute Engine](https://developers.google.com/compute/) is co
 Working with the Google Cloud Platform requires a project. If you do not have a project yet, you can sign up via the [Developer Console](https://console.developers.google.com/). There is a free trial availible [here](https://cloud.google.com/free-trial/).
 
 ## <a id="examples"></a>Running examples
-A great starting point for using jclouds on GCE is to run the examples provided on [github](https://github.com/jclouds/jclouds-examples).
+A great starting point for using jclouds on GCE is to run the examples provided on [github](https://github.com/apache/jclouds-examples).
 
 Important Setup
 
@@ -21,7 +21,7 @@ Important Setup
   * Enable the Google Compute Engine API under APIs & auth > APIs
   * Create a service account under APIs & auth > Credentials > Create new Client ID and download the Json key. This is described more throughly below under Authentication.
 
-Once you have completed the setup, checkout the [jclouds-examples](https://github.com/jclouds/jclouds-examples) repository and look at either [compute-basic](https://github.com/jclouds/jclouds-examples/tree/master/compute-basics) for an example of using the compute service abstraction or [google-lb](https://github.com/jclouds/jclouds-examples/tree/master/google-lb) for an example of using the GCE api directly.
+Once you have completed the setup, checkout the [jclouds-examples](https://github.com/apache/jclouds-examples) repository and look at either [compute-basic](https://github.com/apache/jclouds-examples/tree/master/compute-basics) for an example of using the compute service abstraction or [google-lb](https://github.com/apache/jclouds-examples/tree/master/google-lb) for an example of using the GCE api directly.
 
 If you are having trouble feel free to [reach out](https://jclouds.apache.org/community/).
 

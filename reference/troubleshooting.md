@@ -36,7 +36,7 @@ If you're using Java 8, you can use the [jdeps](http://docs.oracle.com/javase/8/
 
 ### <a id="source"></a>Source Code
 
-Having a look a the source code will tell you exactly what jclouds is doing. The source code can be viewed directly on [GitHub](https://github.com/jclouds/jclouds) or [downloaded](http://www.apache.org/dyn/closer.cgi/jclouds) from an ASF mirror repository.
+Having a look a the source code will tell you exactly what jclouds is doing. The source code can be viewed directly on [GitHub](https://github.com/apache/jclouds) or [downloaded](http://www.apache.org/dyn/closer.cgi/jclouds) from an ASF mirror repository.
 
 ## <a id="specfic"></a>Specific Solutions
 

@@ -41,7 +41,7 @@ We know folks from a good many places.  While this may just be a list of applica
     <td>Uses jclouds for cluster deployments in the cloud</td>
 </tr>
 <tr>
-    <td><a href="https://github.com/jclouds/jclouds-chef">Chef integration</a></td>
+    <td><a href="https://github.com/apache/jclouds-chef">Chef integration</a></td>
     <td>jclouds bootstraps nodes based on chef run-lists</td>
 </tr>
 <tr>
@@ -117,7 +117,7 @@ We know folks from a good many places.  While this may just be a list of applica
     <td>jclouds launches slaves for Jenkins on any supported cloud</td>
 </tr>
 <tr>
-    <td><a href="https://github.com/jclouds/jclouds-karaf">Karaf Integration</a></td>
+    <td><a href="https://github.com/apache/jclouds-karaf">Karaf Integration</a></td>
     <td>Provides managed service factories and command line support for easily creating and managing blobstore and compute as OSGi services</td>
 </tr>
 <tr>

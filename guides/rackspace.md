@@ -39,7 +39,7 @@ This guide assumes you're familiar with Java and its technologies. To get starte
 1. Create a directory to try out jclouds.
     * `mkdir jclouds`
     * `cd jclouds`
-1. Make a local copy of this [pom.xml](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/pom.xml) file in the jclouds directory.
+1. Make a local copy of this [pom.xml](https://github.com/apache/jclouds-examples/blob/master/rackspace/pom.xml) file in the jclouds directory.
     * `mvn dependency:copy-dependencies "-DoutputDirectory=./lib"`
 1. You should now have a directory with the following structure:
     * `jclouds/`
@@ -123,9 +123,9 @@ Cloud Files works with a portable layer in jclouds that is used to access featur
             * `CloudFilesPublish.java`
             * `Constants.java`
 1. Open CloudFilesPublish.java for editing.
-1. Go to the example code [CloudFilesPublish.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudfiles/CloudFilesPublish.java), read it over, and copy the code into your file.
+1. Go to the example code [CloudFilesPublish.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudfiles/CloudFilesPublish.java), read it over, and copy the code into your file.
 1. Open Constants.java for editing.
-1. Go to the example code [Constants.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudfiles/Constants.java), read it over, and copy the code into your file.
+1. Go to the example code [Constants.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudfiles/Constants.java), read it over, and copy the code into your file.
 
 ### <a id="files-compile"></a>Compile and Run
 
@@ -166,9 +166,9 @@ Cloud Servers works with a portable layer in jclouds that is used to access feat
             * `CloudServersPublish.java`
             * `Constants.java`
 1. Open CloudServersPublish.java for editing.
-1. Go to the example code [CloudServersPublish.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudservers/CloudServersPublish.java), read it over, and copy the code into your file.
+1. Go to the example code [CloudServersPublish.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudservers/CloudServersPublish.java), read it over, and copy the code into your file.
 1. Open Constants.java for editing.
-1. Go to the example code [Constants.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudservers/Constants.java), read it over, and copy the code into your file.
+1. Go to the example code [Constants.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudservers/Constants.java), read it over, and copy the code into your file.
 
 ### <a id="servers-compile"></a>Compile and Run
 
@@ -209,9 +209,9 @@ Cloud Block Storage works with the OpenStack layer in jclouds that is used to ac
             * `CreateVolumeAndAttach.java`
             * `Constants.java`
 1. Open CreateVolumeAndAttach.java for editing.
-1. Go to the example code [CreateVolumeAndAttach.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudblockstorage/CreateVolumeAndAttach.java), read it over, and copy the code into your file.
+1. Go to the example code [CreateVolumeAndAttach.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudblockstorage/CreateVolumeAndAttach.java), read it over, and copy the code into your file.
 1. Open Constants.java for editing.
-1. Go to the example code [Constants.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudblockstorage/Constants.java), read it over, and copy the code into your file.
+1. Go to the example code [Constants.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudblockstorage/Constants.java), read it over, and copy the code into your file.
 
 ### <a id="volumes-compile"></a>Compile and Run
 
@@ -257,9 +257,9 @@ Cloud Load Balancers works with the Rackspace layer in jclouds that is used to a
             * `CreateLoadBalancerWithExistingServers.java`
             * `Constants.java`
 1. Open CreateLoadBalancerWithExistingServers.java for editing.
-1. Go to the example code [CreateLoadBalancerWithExistingServers.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudloadbalancers/CreateLoadBalancerWithExistingServers.java), read it over, and copy the code into your file.
+1. Go to the example code [CreateLoadBalancerWithExistingServers.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudloadbalancers/CreateLoadBalancerWithExistingServers.java), read it over, and copy the code into your file.
 1. Open Constants.java for editing.
-1. Go to the example code [Constants.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudloadbalancers/Constants.java), read it over, and copy the code into your file.
+1. Go to the example code [Constants.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudloadbalancers/Constants.java), read it over, and copy the code into your file.
 
 ### <a id="loadbalancers-compile"></a>Compile and Run
 
@@ -295,9 +295,9 @@ You can access Cloud Databases with the jclouds openstack-trove API by specifyin
             * `CreateInstance.java`
             * `Constants.java`
 1. Open CreateInstance.java for editing.
-1. Go to the example code [CreateInstance.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/clouddatabases/CreateInstance.java), read it over, and copy the code into your file.
+1. Go to the example code [CreateInstance.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/clouddatabases/CreateInstance.java), read it over, and copy the code into your file.
 1. Open Constants.java for editing.
-1. Go to the example code [Constants.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/clouddatabases/Constants.java), read it over, and copy the code into your file.
+1. Go to the example code [Constants.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/clouddatabases/Constants.java), read it over, and copy the code into your file.
 
 ### <a id="databases-compile"></a>Compile and Run
 
@@ -309,7 +309,7 @@ Note: When providing a java classpath in Windows, the path separator is ';' inst
 
 ### <a id="databases-advanced"></a>Advanced work with Cloud Databases
 
-In addition to the create database instance example, by going through the clouddatabases example code, you will learn to create instances, databases, and database users as well as delete and modify them. You will also learn how to set up and access a database from the public internet over JDBC. You can find the examples documentation in the [Rackspace examples](https://github.com/jclouds/jclouds-examples/tree/master/rackspace).
+In addition to the create database instance example, by going through the clouddatabases example code, you will learn to create instances, databases, and database users as well as delete and modify them. You will also learn how to set up and access a database from the public internet over JDBC. You can find the examples documentation in the [Rackspace examples](https://github.com/apache/jclouds-examples/tree/master/rackspace).
 
 ## <a id="autoscale"></a>Working with Cloud Auto Scale
 ### <a id="autoscale-intro"></a>Introduction
@@ -335,9 +335,9 @@ You can access Cloud Auto Scale with the jclouds rackspace-autoscale API by spec
             * `CreatePolicy.java`
             * `Constants.java`
 1. Open CreatePolicy.java for editing.
-1. Go to the example code [CreatePolicy.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/autoscale/CreatePolicy.java), read it over, and copy the code into your file.
+1. Go to the example code [CreatePolicy.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/autoscale/CreatePolicy.java), read it over, and copy the code into your file.
 1. Open Constants.java for editing.
-1. Go to the example code [Constants.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/autoscale/Constants.java), read it over, and copy the code into your file.
+1. Go to the example code [Constants.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/autoscale/Constants.java), read it over, and copy the code into your file.
 
 ### <a id="autoscale-compile"></a>Compile and Run
 
@@ -350,7 +350,7 @@ Note: This uses the API key, not the password.
 
 ### <a id="autoscale-advanced"></a>Advanced work with Auto Scale
 
-In addition to the CreatePolicy example, by going through the Auto Scale example code, you will learn to create and execute webhooks, and delete and modify groups, policies, and webhooks. You can find the examples documentation in the [Rackspace examples](https://github.com/jclouds/jclouds-examples/tree/master/rackspace).
+In addition to the CreatePolicy example, by going through the Auto Scale example code, you will learn to create and execute webhooks, and delete and modify groups, policies, and webhooks. You can find the examples documentation in the [Rackspace examples](https://github.com/apache/jclouds-examples/tree/master/rackspace).
 
 ## <a id="queues"></a>Working with Cloud Queues
 ### <a id="queues-intro"></a>Introduction
@@ -376,9 +376,9 @@ Cloud Queues works with the OpenStack layer in jclouds that is used to access fe
             * `ProducerConsumer.java`
             * `Constants.java`
 1. Open ProducerConsumer.java for editing.
-1. Go to the example code [ProducerConsumer.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudqueues/ProducerConsumer.java), read it over, and copy the code into your file.
+1. Go to the example code [ProducerConsumer.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudqueues/ProducerConsumer.java), read it over, and copy the code into your file.
 1. Open Constants.java for editing.
-1. Go to the example code [Constants.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudqueues/Constants.java), read it over, and copy the code into your file.
+1. Go to the example code [Constants.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudqueues/Constants.java), read it over, and copy the code into your file.
 
 ### <a id="queues-compile"></a>Compile and Run
 
@@ -434,8 +434,8 @@ public class MyJEEClass {
 
 ## <a id="next"></a>Next Steps
 
-1. Try the rest of the [Rackspace examples](https://github.com/jclouds/jclouds-examples/tree/master/rackspace#the-examples) and the [Logging example](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/Logging.java).
-1. When you're ready to publish some web pages on the internet, try the [CloudFilesPublish.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudfiles/CloudFilesPublish.java), [CloudServersPublish.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudservers/CloudServersPublish.java), or [CreateLoadBalancerWithNewServers.java](https://github.com/jclouds/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudloadbalancers/CreateLoadBalancerWithNewServers.java) examples.
+1. Try the rest of the [Rackspace examples](https://github.com/apache/jclouds-examples/tree/master/rackspace#the-examples) and the [Logging example](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/Logging.java).
+1. When you're ready to publish some web pages on the internet, try the [CloudFilesPublish.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudfiles/CloudFilesPublish.java), [CloudServersPublish.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudservers/CloudServersPublish.java), or [CreateLoadBalancerWithNewServers.java](https://github.com/apache/jclouds-examples/blob/master/rackspace/src/main/java/org/jclouds/examples/rackspace/cloudloadbalancers/CreateLoadBalancerWithNewServers.java) examples.
 1. Change the examples to do different things that you want to do.
 1. After running some examples, compare the output with what you see in the [Cloud Control Panel](https://mycloud.rackspace.com/).
 1. Join the [jclouds community](/community/) as either a developer or user.
