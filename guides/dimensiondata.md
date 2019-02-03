@@ -44,8 +44,8 @@ Upgrading to later versions is planned and in progress, see [here](https://issue
 
 Please follow the installation guide [here](https://jclouds.apache.org/start/install/).
 
-The Dimension Data CloudControl provider is currently available as part of the jclouds labs project [here](https://github.com/jclouds/jclouds-labs).
-The Dimension Data CloudControl provider examples project is currently available as part of jclouds examples [here](https://github.com/jclouds/jclouds-examples).
+The Dimension Data CloudControl provider is currently available as part of the jclouds labs project [here](https://github.com/apache/jclouds-labs).
+The Dimension Data CloudControl provider examples project is currently available as part of jclouds examples [here](https://github.com/apache/jclouds-examples).
 
 ### Authentication
 
@@ -241,7 +241,7 @@ api.getTagApi().applyTags(serverId, "SERVER", Collections.singletonList(TagInfo.
 The full set of `AssetTypes` are `SERVER`, `NETWORK_DOMAIN`, `VLAN`, `CUSTOMER_IMAGE`, `PUBLIC_IP_BLOCK` or `ACCOUNT`.
 
 ## <a id="examples"></a>Examples:
-See jclouds examples repository [here](https://github.com/jclouds/jclouds-examples/tree/master/dimensiondata/src/main/java/org/jclouds/examples/dimensiondata/cloudcontrol).
+See jclouds examples repository [here](https://github.com/apache/jclouds-examples/tree/master/dimensiondata/src/main/java/org/jclouds/examples/dimensiondata/cloudcontrol).
 
 ## <a id="support-and-feedback"></a>Support and Feedback
 Your feedback is welcome! If you have comments or questions regarding using Dimension Data CloudControl via jclouds, please reach out to us at [jclouds community](https://jclouds.apache.org/community/).

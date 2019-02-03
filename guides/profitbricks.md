@@ -76,7 +76,7 @@ You should now have a directory with the following structure:
             *.jar
 ```
 
-The ProfitBricks provider is currently available as part of the jclouds labs project [here](https://github.com/jclouds/jclouds-labs).
+The ProfitBricks provider is currently available as part of the jclouds labs project [here](https://github.com/apache/jclouds-labs).
 
 
 ### Authentication

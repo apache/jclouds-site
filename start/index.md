@@ -32,7 +32,7 @@ title: Getting Started with Apache jclouds&reg;
 </tr>
 <tr>
     <td><span class="glyphicon glyphicon-book text-primary"></span>
-    &nbsp;<a href="https://github.com/jclouds/jclouds-examples">jclouds Examples</a></td>
+    &nbsp;<a href="https://github.com/apache/jclouds-examples">jclouds Examples</a></td>
     <td>See examples of jclouds in action.</td>
 </tr>
 </tbody>

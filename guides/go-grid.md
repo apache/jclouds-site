@@ -60,10 +60,10 @@ serverLatestJobCompleted.apply(createdServer); //blocks until the condition is m
 {% endhighlight %}
 
 Note that this predicate can be used for any type of server-related jobs (for load balancer-related jobs,
- please see [this predicate](https://github.com/jclouds/jclouds/blob/master/providers/gogrid/src/main/java/org/jclouds/gogrid/predicates/LoadBalancerLatestJobCompleted.java)).
+ please see [this predicate](https://github.com/apache/jclouds/blob/master/providers/gogrid/src/main/java/org/jclouds/gogrid/predicates/LoadBalancerLatestJobCompleted.java)).
 Also, GoGrid will mark the server creation job finished when the OS is still booting up.
 
-To restart the server, or turn it off, a power command with [PowerCommand](https://github.com/jclouds/jclouds/blob/master/providers/gogrid/src/main/java/org/jclouds/gogrid/domain/PowerCommand.java) enum may be used:
+To restart the server, or turn it off, a power command with [PowerCommand](https://github.com/apache/jclouds/blob/master/providers/gogrid/src/main/java/org/jclouds/gogrid/domain/PowerCommand.java) enum may be used:
 
 {% highlight java %}
 client.getServerServices().power(nameOfServer, PowerCommand.RESTART);
@@ -114,4 +114,4 @@ service.runNodesInGroup("testGroup", 1 /*number of instances*/, t);
 {% endhighlight %}
 
 For more information on using this abstraction, refer to
-the detailed [test case](http://github.com/jclouds/jclouds/blob/master/providers/gogrid/src/test/java/org/jclouds/gogrid/compute/GoGridComputeServiceLiveTest.java).
+the detailed [test case](http://github.com/apache/jclouds/blob/master/providers/gogrid/src/test/java/org/jclouds/gogrid/compute/GoGridComputeServiceLiveTest.java).

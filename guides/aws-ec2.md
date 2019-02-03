@@ -405,7 +405,7 @@ With respect to the security group, jclouds creates a security group for you, wi
 
 The other way is the push your credentials into the credentials store so that jClouds uses it.
 
-When a keypair is automatically created, jclouds [puts](https://github.com/jclouds/jclouds/blob/master/apis/ec2/src/main/java/org/jclouds/ec2/compute/strategy/CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions.java)
+When a keypair is automatically created, jclouds [puts](https://github.com/apache/jclouds/blob/master/apis/ec2/src/main/java/org/jclouds/ec2/compute/strategy/CreateKeyPairAndSecurityGroupsAsNeededAndReturnRunOptions.java)
 the keypair into the Credentials Map. You can use the same option to put your credentials into the Credentials Map using the credentialStore
 
 {% highlight java %}
