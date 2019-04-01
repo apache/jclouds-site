@@ -148,7 +148,7 @@ has built in google guice predicates that will block execution and check that th
 
 The following is some example code that shows how the to use predicate suitable for asserting a Network Domain state has transitioned to the `NORMAL` state. The predicate uses the Network Domain Identifier we wish to check the state of.
 {% highlight java %}
-Predicate<String> networkDomainNormalPredicate = api.getNetworkApi().networkDomainNormalPredicate();
+Predicate<String> networkDomainNormalPredicate = api.networkDomainNormalPredicate();
 networkDomainNormalPredicate.apply(networkDomainId);    
 {% endhighlight %}
 
@@ -170,7 +170,7 @@ A Vlan deployment is an asynchronous process. We need to wait for it to complete
 
 Following is some example code that shows how the to use predicate suitable for asserting a Vlan state has transitioned to the `NORMAL` state. The predicate uses the Vlan Identifier we wish to check the state of.
 {% highlight java %}
-Predicate<String> vlanNormalPredicate = api.getNetworkApi().vlanNormalPredicate();
+Predicate<String> vlanNormalPredicate = api.vlanNormalPredicate();
 vlanNormalPredicate.apply(vlanId);
 {% endhighlight %}
 
@@ -216,8 +216,8 @@ String serverId = api.getServerApi()
 {% highlight java %}
 static void waitForServerStartedAndNormal(String serverId)
 {
-    Predicate<String> serverStartedPredicate = api.getServerApi().serverStartedPredicate();
-    Predicate<String> serverNormalPredicate = api.getServerApi().serverNormalPredicate();
+    Predicate<String> serverStartedPredicate = api.serverStartedPredicate();
+    Predicate<String> serverNormalPredicate = api.serverNormalPredicate();
     // Wait for Server to be started and NORMAL
     serverStartedPredicate.apply(serverId);
     serverNormalPredicate.apply(serverId);
