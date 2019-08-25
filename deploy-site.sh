@@ -19,7 +19,15 @@ set -o errexit
 jekyll _${JEKYLL_VERSION}_ build --safe
 
 if [ ! -d "site-content" ]; then
-  svn co https://svn.apache.org/repos/asf/jclouds/site-content
+  # Selectively checkout so we don't clone the entire javadocs that are not required here
+  svn co https://svn.apache.org/repos/asf/jclouds/site-content --depth immediates
+  cd site-content
+  find . -maxdepth 1 -type d -not -name 'reference' -not -name '.' -not -name '.svn' | (while read D; do svn up "${D}" --set-depth infinity; done)
+  svn up reference --set-depth immediates
+  cd reference
+  find . -maxdepth 1 -type d -not -name 'javadoc' -not -name '.' | (while read D; do svn up "${D}" --set-depth infinity; done)
+  svn up javadoc --set-depth files
+  cd ../..
 else
   svn up site-content
 fi
@@ -57,11 +65,6 @@ else
             USERNAME_ARG="--username $1"
         fi
 
-        PASSWORD_ARG=""
-        if [ -n "$2" ]; then
-            PASSWORD_ARG="--password $2"
-        fi
-
-        svn commit --no-auth-cache $USERNAME_ARG $PASSWORD_ARG --message 'deploy jclouds site content'
+        svn commit --no-auth-cache $USERNAME_ARG --message 'deploy jclouds site content'
     fi
 fi
