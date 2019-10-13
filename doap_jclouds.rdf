@@ -37,6 +37,20 @@
     <category rdf:resource="http://projects.apache.org/category/library" />
     <release>
       <Version>
+        <name>Apache jclouds 2.2.0</name>
+        <created>2019-10-17</created>
+        <revision>2.2.0</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache jclouds 2.1.3</name>
+        <created>2019-10-17</created>
+        <revision>2.1.3</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
         <name>Apache jclouds 2.1.2</name>
         <created>2018-02-07</created>
         <revision>2.1.2</revision>
