@@ -52,16 +52,6 @@ The link in the Mirrors column below should display a list of available mirrors 
     <td><a href="https://www.apache.org/dist/jclouds/{{ site.latest_version }}/jclouds-labs-openstack-{{ site.latest_version }}-source-release.tar.gz.sha512">SHA 512 checksum</td>
     <td><a href="https://www.apache.org/dist/jclouds/{{ site.latest_version }}/jclouds-labs-openstack-{{ site.latest_version }}-source-release.tar.gz.asc">PGP signature</td>
 </tr>
-<tr>
-    <td><a href="https://www.apache.org/dyn/closer.lua/jclouds/{{ site.latest_version }}/jclouds-karaf-{{ site.latest_version }}-source-release.tar.gz">jclouds-karaf-{{ site.latest_version }}.tar.gz</a></td>
-    <td><a href="https://www.apache.org/dist/jclouds/{{ site.latest_version }}/jclouds-karaf-{{ site.latest_version }}-source-release.tar.gz.sha512">SHA 512 checksum</td>
-    <td><a href="https://www.apache.org/dist/jclouds/{{ site.latest_version }}/jclouds-karaf-{{ site.latest_version }}-source-release.tar.gz.asc">PGP signature</td>
-</tr>
-<tr>
-    <td><a href="https://www.apache.org/dyn/closer.lua/jclouds/{{ site.latest_version }}/jclouds-cli-{{ site.latest_version }}-source-release.tar.gz">jclouds-cli-{{ site.latest_version }}.tar.gz</a></td>
-    <td><a href="https://www.apache.org/dist/jclouds/{{ site.latest_version }}/jclouds-cli-{{ site.latest_version }}-source-release.tar.gz.sha512">SHA 512 checksum</td>
-    <td><a href="https://www.apache.org/dist/jclouds/{{ site.latest_version }}/jclouds-cli-{{ site.latest_version }}-source-release.tar.gz.asc">PGP signature</td>
-</tr>
 </tbody>
 </table>
 
