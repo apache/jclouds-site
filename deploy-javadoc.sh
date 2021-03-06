@@ -33,14 +33,16 @@ apis="openstack-glance openstack-marconi rackspace-autoscale"
 
 for api in ${apis}; do
   mv jclouds-labs-openstack/${api} jclouds/apis/
-  sed -i "" "s#<module>route53</module>#<module>route53</module><module>${api}</module>#g" jclouds/apis/pom.xml
+  sed "s#<module>route53</module>#<module>route53</module><module>${api}</module>#g" < jclouds/apis/pom.xml > tmp
+  mv tmp jclouds/apis/pom.xml
 done
 
 providers="rackspace-autoscale-us rackspace-cloudqueues-us rackspace-cloudqueues-uk"
 
 for provider in ${providers}; do
   mv jclouds-labs-openstack/${provider} jclouds/providers/
-  sed -i "" "s#<module>dynect</module>#<module>dynect</module><module>${provider}</module>#g" jclouds/providers/pom.xml
+  sed "s#<module>dynect</module>#<module>dynect</module><module>${provider}</module>#g" < jclouds/providers/pom.xml > tmp
+  mv tmp jclouds/providers/pom.xml
 done
 
 cd jclouds
