@@ -3,7 +3,8 @@ FROM ruby:2.2.5
 RUN apt-get update && \
     apt-get install -y rsync
 
-RUN gem install jekyll -v 1.5.1 && \
+RUN gem install ffi -v 1.12.2 && \
+    gem install jekyll -v 1.5.1 && \
     gem install rdiscount
 
 ENV LC_ALL=C.UTF-8 LANG=C.UTF-8
