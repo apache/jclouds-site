@@ -3,7 +3,7 @@
 set -o errexit
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-JAVA_VERSION=`mvn --version | grep "Java version" | awk '{print $3}' | sed 's/,//' | cut -c 3`
+JAVA_VERSION=`mvn --version | grep "Java version" | awk '{print $3}' | sed 's/,//' | cut -d. -f1`
 
 if [ "$JAVA_VERSION" -lt "7" ]; then
   echo "Use Java 1.7+ to generate the Javadoc."
