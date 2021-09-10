@@ -5,7 +5,7 @@ set -o errexit
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 
-JAVA_VERSION=`java -version 2>&1 | sed -n ';s/.* version "\(.*\)\.\(.*\)\..*"/\1\2/p;'`
+JAVA_VERSION=`java -version 2>&1 | sed -n ';s/.* version "\(.*\)\.\(.*\)\..*".*/\1\2/p;'`
 if [ "$JAVA_VERSION" -lt "17" ]; then
   echo "Use Java 1.7+ to generate the Javadoc."
   exit 1
