@@ -100,34 +100,6 @@ If you do not have a *pom.xml* file, you can copy and paste the one below. If yo
 </project>
 {% endhighlight %}
 
-### Using the daily builds
-
-<div class="alert alert-danger">
-<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-These are untested snapshot builds provided for convenience; they are not official releases of the Apache jclouds project, or the Apache Software Foundation.
-</div>
-
-If you want to use the bleeding edge release of jclouds, you'll need to setup a maven dependency pointing to our snapshot repository. You need to update your repositories and add the following in your project's pom.xml:
-
-{% highlight xml %}
-<repositories>
-    <repository>
-        <id>jclouds-snapshots</id>
-        <url>https://repository.apache.org/content/repositories/snapshots</url>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-    </repository>
-</repositories>
-<dependencies>
-    <dependency>
-        <groupId>org.apache.jclouds</groupId>
-        <artifactId>jclouds-all</artifactId>
-        <version>{{ site.latest_snapshot }}</version>
-    </dependency>
-</dependencies>
-{% endhighlight %}
-
 ### Download the binaries
 
 * Create a *pom.xml* file like the one in the <a href="#maven">Maven Configuration</a> section above.
@@ -148,23 +120,6 @@ You can add jclouds to your *project.clj* like below, supporting clojure 1.2 and
                [org.clojure/core.incubator "0.1.0"]
                [org.clojure/tools.logging "0.2.3"]
                [org.apache.jclouds/jclouds-all "{{ site.latest_version }}"]]
-{% endhighlight %}
-
-### Using the daily builds
-
-<div class="alert alert-danger">
-<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-These are untested snapshot builds provided for convenience; they are not official releases of the Apache jclouds project, or the Apache Software Foundation.
-</div>
-
-You can add jclouds snapshots to your *project.clj* like below:
-
-{% highlight clojure %}
-  :dependencies [[org.clojure/clojure "1.3.0"]
-                 [org.clojure/core.incubator "0.1.0"]
-                 [org.clojure/tools.logging "0.2.3"]
-                 [org.apache.jclouds/jclouds-all "{{ site.latest_snapshot }}"]]
-  :repositories { "jclouds-snapshot" "https://repository.apache.org/content/repositories/snapshots"}
 {% endhighlight %}
 
 ### Download the binaries
@@ -191,26 +146,6 @@ Then, add jclouds to your *build.xml* as shown below:
 {% highlight xml %}
 <artifact:dependencies pathId="jclouds.classpath">
     <dependency groupId="org.apache.jclouds"artifactId="jclouds-all" version="{{ site.latest_version }}" />
-</artifact:dependencies>
-{% endhighlight %}
-
-### Using the daily builds
-
-<div class="alert alert-danger">
-<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-These are untested snapshot builds provided for convenience; they are not official releases of the Apache jclouds project, or the Apache Software Foundation.
-</div>
-
-You will need to install [maven ant tasks](http://maven.apache.org/ant-tasks/index.html). Then, add jclouds snapshot dependencies to your *build.xml* as shown below:
-
-{% highlight xml %}
-<artifact:remoteRepository id="jclouds.snapshot.repository"
-    url="https://repository.apache.org/content/repositories/snapshots" />
-    <artifact:dependencies pathId="jclouds.classpath">
-        <dependency groupId="org.apache.jclouds"
-            artifactId="jclouds-all"
-            version="{{ site.latest_snapshot }}" />
-    <remoteRepository refid="jclouds.snapshot.repository" />
 </artifact:dependencies>
 {% endhighlight %}
 
