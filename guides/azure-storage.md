@@ -66,3 +66,22 @@ Object object = azureBlobClient.getBlobProperties(containerName, blobName);
 System.out.println("Object: " + object);
 context.close();
 {% endhighlight %}
+
+To use Azure Active Directory with Azure Blob storage, follow these steps:
+
+1. Setup [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+2. Create a new Azure App: `az ad app create --display-name <name> --password <password>`
+3. Create a new service principal: `az ad sp create --id <Application-id>`
+4. Assign a Storage Blob Data Contributor role to the app: `az role assignment create --role "Storage Blob Data Contributor" --assignee <service principal ID>`
+5. Lookup the tenant ID: `az account show`
+
+In step 2, note the Azure Application ID returned. It will be used to create the service principal.
+In step 3, note the service principal ID returned -- it is required in step 4 to assign the role so that the service principal can access the storage account.
+	
+Now you can use Azure Blob using Azure AD authentication. The required properties are:
+	
+* `jclouds.azureblob.auth=azureAd`
+* `jclouds.identity=<service principal ID>`
+* `jclouds.credential=<service principal password>`
+* `jclouds.azureblob.tenantId=<tenant ID>`
+* `jclouds.azureblob.account=<Azure Blob storage account>`
