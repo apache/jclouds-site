@@ -4,7 +4,7 @@ title: "CloudSigma: Getting Started Guide"
 permalink: /guides/cloudsigma/
 ---
 
-1. Signup for [CloudSigma](http://www.cloudsigma.com/)
+1. Signup for [CloudSigma](https://www.cloudsigma.com/)
 2. Ensure you are using a recent JDK 6
 3. Setup your project to include `cloudsigma-zrh`
 	* Get the dependency `org.apache.jclouds.provider/cloudsigma-zrh` using jclouds [Installation](/start/install).
@@ -39,4 +39,4 @@ ServerInfo newServer = client.createServer(toCreate);
 context.close();
 {% endhighlight %}
 
-5. Run on [CloudSigma](http://www.cloudsigma.com/)
+5. Run on [CloudSigma](https://www.cloudsigma.com/)

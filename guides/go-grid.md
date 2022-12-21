@@ -114,4 +114,4 @@ service.runNodesInGroup("testGroup", 1 /*number of instances*/, t);
 {% endhighlight %}
 
 For more information on using this abstraction, refer to
-the detailed [test case](http://github.com/apache/jclouds/blob/master/providers/gogrid/src/test/java/org/jclouds/gogrid/compute/GoGridComputeServiceLiveTest.java).
+the detailed [test case](https://github.com/apache/jclouds/blob/master/providers/gogrid/src/test/java/org/jclouds/gogrid/compute/GoGridComputeServiceLiveTest.java).

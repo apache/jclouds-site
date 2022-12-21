@@ -4,7 +4,7 @@ title: "Dimension Data: Getting Started Guide"
 permalink: /guides/dimensiondata/
 ---
 
-[jclouds](http://jclouds.apache.org/) is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.
+[jclouds](https://jclouds.apache.org/) is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.
 
 This guide will show you how to programmatically use the Dimension Data CloudControl provider in jclouds to perform common operations available in the CloudControl API.
 

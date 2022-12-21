@@ -6,8 +6,8 @@ permalink: /guides/karaf/
 
 ## Introduction
 
-[Apache Karaf](http://karaf.apache.org) is an OSGi runtime that runs on top of most OSGi containers like [Apache Felix](http://felix.apache.org) and
-[Eclipse Equinox](http://www.eclipse.org/equinox/).  jclouds provides easy integration with Apache Karaf by leveraging the Karaf _"Feature"_ concept.
+[Apache Karaf](https://karaf.apache.org) is an OSGi runtime that runs on top of most OSGi containers like [Apache Felix](https://felix.apache.org) and
+[Eclipse Equinox](https://www.eclipse.org/equinox/).  jclouds provides easy integration with Apache Karaf by leveraging the Karaf _"Feature"_ concept.
 
 This section will describe how to install jclouds on Apache Karaf and run some examples that demonstrate the power of jclouds in a dynamic environment such as Karaf.
 
@@ -150,5 +150,5 @@ by editing the configuration file. The commands will pick up the changes immedia
 This way you can even switch providers.
 
 
-Watch the [demo video](http://www.youtube.com/watch?v=SIvSaGEKrkM).
+Watch the [demo video](https://www.youtube.com/watch?v=SIvSaGEKrkM).
 

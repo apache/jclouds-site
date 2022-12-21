@@ -50,7 +50,7 @@ Set<? extends Hardware> hardware = computeService.listHardwareProfiles();
 Set<? extends org.jclouds.compute.domain.Image> image  = computeService.listImages();
 {% endhighlight %}
 
-NB: "computeService.listImages()" returns `operatingSystems` from [SoftLayer_Container_Virtual_Guest_Configuration](http://sldn.softlayer.com/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration).
+NB: "computeService.listImages()" returns `operatingSystems` from [SoftLayer_Container_Virtual_Guest_Configuration](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration).
 
 {% highlight java %}
 // Create nodes with templates
@@ -87,7 +87,7 @@ curl -uusername:apiKey https://api.softlayer.com/rest/v3/SoftLayer_Account/getBl
 
 and use the globalIdentifier desired
 
-jclouds is able to leverage SoftLayer CCI specific-options described at [createObject](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/createObject) by doing the following:
+jclouds is able to leverage SoftLayer CCI specific-options described at [createObject](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/createObject) by doing the following:
 {% highlight java %}
 SoftLayerTemplateOptions options = template.getOptions().as(SoftLayerTemplateOptions.class);
 // domain

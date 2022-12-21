@@ -6,7 +6,7 @@
   <title><![CDATA[{{ site.title }}]]></title>
   <link href="{{ site.url }}/atom.xml" rel="self"/>
   <link href="{{ site.url }}/"/>
-  <generator uri="http://jekyllrb.com/">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/">Jekyll</generator>
 
   {% for post in site.posts limit: 20 %}
   <entry>

@@ -126,7 +126,7 @@ Here is the overall process:
 
 1. Grab the run-list associated with the group from the bootstrap databag.
 2. Write a single shell script that does the following:
-    1. Installs Ruby and Chef Gems using the same process as [Knife Bootstrap](http://docs.opscode.com/knife_bootstrap.html)
+    1. Installs Ruby and Chef Gems using the same process as [Knife Bootstrap](https://docs.opscode.com/knife_bootstrap.html)
     2. mkdir /etc/chef
     3. Write /etc/chef/client.rb, which sets the nodename as group-ip_address Ex. hadoop-175.2.2.3 (note that the ip address comes from ohai).
     4. Write /etc/chef/validation.pem associated with the provided validator.

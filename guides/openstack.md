@@ -15,22 +15,22 @@ permalink: /guides/openstack/
 1. [OpenStack Dependencies](#pom)
 
 ## <a id="intro"></a>Introduction
-[OpenStack](http://www.openstack.org/) is a global collaboration of developers and cloud computing technologists producing the ubiquitous open source cloud computing platform for public and private clouds. The project aims to deliver solutions for all types of clouds by being simple to implement, massively scalable, and feature rich. The technology consists of a series of interrelated projects delivering various components for a cloud infrastructure solution.
+[OpenStack](https://www.openstack.org/) is a global collaboration of developers and cloud computing technologists producing the ubiquitous open source cloud computing platform for public and private clouds. The project aims to deliver solutions for all types of clouds by being simple to implement, massively scalable, and feature rich. The technology consists of a series of interrelated projects delivering various components for a cloud infrastructure solution.
 
 ## <a id="openstack"></a>Get OpenStack
 You can either install a private OpenStack cloud for yourself or use an existing OpenStack public cloud.
 
 ### <a id="private"></a>Private Clouds
-If you don't have a private OpenStack cloud but still want to try it out, you can use [DevStack](http://devstack.org/) to create your own mini-OpenStack cloud.
+If you don't have a private OpenStack cloud but still want to try it out, you can use [DevStack](https://devstack.org/) to create your own mini-OpenStack cloud.
 
 ### <a id="public"></a>Public Clouds
-Because the OpenStack API is also open, the jclouds APIs that talk to private OpenStack clouds work just as well with public OpenStack clouds. OpenStack is used by several large public clouds, both the [HP Cloud](https://www.hpcloud.com/) ([HP Cloud Getting Started Guide](/guides/hpcloud)) and [Rackspace Cloud](http://www.rackspace.com/cloud/) ([Rackspace Getting Started Guide](/guides/rackspace)) are based on it. If you don't want to sign up for a paid public cloud, you can use [TryStack](http://trystack.org/).
+Because the OpenStack API is also open, the jclouds APIs that talk to private OpenStack clouds work just as well with public OpenStack clouds. OpenStack is used by several large public clouds, both the [HP Cloud](https://www.hpcloud.com/) ([HP Cloud Getting Started Guide](/guides/hpcloud)) and [Rackspace Cloud](https://www.rackspace.com/cloud/) ([Rackspace Getting Started Guide](/guides/rackspace)) are based on it. If you don't want to sign up for a paid public cloud, you can use [TryStack](https://trystack.org/).
 
 ## <a id="install"></a>Get jclouds
 
-1. Ensure you are using the [Java Development Kit (JDK) version 6 or later](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+1. Ensure you are using the [Java Development Kit (JDK) version 6 or later](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
     * `javac -version`
-1. Ensure you are using [Maven version 3 or later](http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html).
+1. Ensure you are using [Maven version 3 or later](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html).
     * `mvn -version`
 1. Create a directory to try out jclouds.
     * `mkdir jclouds`
@@ -310,7 +310,7 @@ Will produce when authentication needed:
 ## <a id="nova"></a>Nova: List Servers
 ### <a id="nova-intro"></a>Introduction
 
-[OpenStack Compute](http://www.openstack.org/software/openstack-compute/) (aka Nova) is an easy to use service that provides on-demand servers that you can use to to build dynamic websites, deliver mobile apps, or crunch big data.
+[OpenStack Compute](https://www.openstack.org/software/openstack-compute/) (aka Nova) is an easy to use service that provides on-demand servers that you can use to to build dynamic websites, deliver mobile apps, or crunch big data.
 
 ### <a id="nova-source"></a>The Source Code
 
@@ -416,7 +416,7 @@ In the constructor note that
 ## <a id="swift"></a>Swift: Use Containers
 ### <a id="swift-intro"></a>Introduction
 
-[OpenStack Object Storage](http://www.openstack.org/software/openstack-storage/) (aka Swift) provides redundant, scalable object storage using clusters of standardized servers capable of storing petabytes of data.
+[OpenStack Object Storage](https://www.openstack.org/software/openstack-storage/) (aka Swift) provides redundant, scalable object storage using clusters of standardized servers capable of storing petabytes of data.
 
 ### <a id="swift-source"></a>The Source Code
 
@@ -582,7 +582,7 @@ public JCloudsNova() {
 * Try using the `"openstack-cinder"` provider to list volumes (hint: see [VolumeAndSnapshotApiLiveTest.testListVolumes()](https://github.com/apache/jclouds/blob/master/apis/openstack-cinder/src/test/java/org/jclouds/openstack/cinder/v1/features/VolumeAndSnapshotApiLiveTest.java)).
 * Have a look at how the optional extensions are handled (hint: see [FloatingIPApiLiveTest.testListFloatingIPs()](https://github.com/apache/jclouds/blob/master/apis/openstack-nova/src/test/java/org/jclouds/openstack/nova/v2_0/extensions/FloatingIPApiLiveTest.java#L42)).
 * Change the example to do different things that you want to do.
-* Browse the [Javadoc](http://demobox.github.com/jclouds-maven-site/latest/apidocs).
+* Browse the [Javadoc](https://demobox.github.com/jclouds-maven-site/latest/apidocs).
 * Join the [jclouds community](/community/) as either a developer or user.
 
 ## <a id="pom"></a>OpenStack Dependencies

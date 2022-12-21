@@ -30,7 +30,7 @@ ec2.endpoint=http://host:8773/services/Eucalyptus/
 
 ## Images
 ### Default image
-The default image for version 1.0.0 is [Amazon Linux](http://aws.amazon.com/amazon-linux-ami) and 64 bit.
+The default image for version 1.0.0 is [Amazon Linux](https://aws.amazon.com/amazon-linux-ami) and 64 bit.
 This by default chooses t1.micro size.  The m1.small instance size does not support 64 bit images,
 if you need this, you'll have to revise the template:
 

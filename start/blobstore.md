@@ -74,8 +74,8 @@ Everything in a BlobStore is stored in a **_container_**, which is an HTTP acces
 (similar to a website) referenced by a URL.
 
 For example, using Amazon S3, creating a container named `jclouds` would be referenced as
-`http://jclouds.s3.amazonaws.com`.  Storing a photo with the key `mymug.jpg`, will be accessible
-through `http://jclouds.s3.amazonaws.com/mymug.jpg`
+`https://jclouds.s3.amazonaws.com`.  Storing a photo with the key `mymug.jpg`, will be accessible
+through `https://jclouds.s3.amazonaws.com/mymug.jpg`
 
 In other blobstores, the naming convention of the container is less strict. All blobstores allow you
 to list your containers and also the contents within them. These contents can either be **_blobs_**,
@@ -213,7 +213,7 @@ if (created) {
 
 Providers may implement multipart upload for large or very large files. Here's an example of multipart
 upload, using `aws-s3` provider, which allows [uploading files as large as
-5TB](http://docs.amazonwebservices.com/AmazonS3/latest/dev/index.html?qfacts.html).
+5TB](https://docs.amazonwebservices.com/AmazonS3/latest/dev/index.html?qfacts.html).
 
 {% highlight java %}
 import static org.jclouds.blobstore.options.PutOptions.Builder.multipart;
@@ -247,7 +247,7 @@ context.close()
 
 ### Logging
 
-Please refer to the [logging](http://jclouds.apache.org/reference/logging/) page for more information
+Please refer to the [logging](https://jclouds.apache.org/reference/logging/) page for more information
 on how to configure logging in jclouds.
 
 
@@ -258,7 +258,7 @@ on how to configure logging in jclouds.
 The above examples show how to use the `BlobStore` API in Java. The same API can be used from Clojure!
 
 ## Setup
-  * Install [leiningen](http://leiningen.org/)
+  * Install [leiningen](https://leiningen.org/)
   * Execute `lein new mygroup/myproject`
    
 In the `myproject` directory, edit the `project.clj` to include the following:
@@ -368,7 +368,7 @@ a website, and allow to download the original image.
 
 When the user clicks on the thumbnail, a download dialog appears. To control the name of the file in
 the "Save As" dialog, you must set [Content
-Disposition](http://www.iana.org/assignments/cont-disp/cont-disp.xhtml).  Here's how you can do it with
+Disposition](https://www.iana.org/assignments/cont-disp/cont-disp.xhtml).  Here's how you can do it with
 the BlobStore API:
 
 {% highlight java %}
@@ -400,7 +400,7 @@ It is usually better to use a repeatable payload like `ByteSource` instead of `I
 since this allows parallel uploads and retrying on errors.
 
 Our integration tests ensure that we don't rebuffer in memory on upload: 
-[testUploadBigFile](http://github.com/apache/jclouds/blob/master/core/src/test/java/org/jclouds/http/BaseHttpCommandExecutorServiceIntegrationTest.java).
+[testUploadBigFile](https://github.com/apache/jclouds/blob/master/core/src/test/java/org/jclouds/http/BaseHttpCommandExecutorServiceIntegrationTest.java).
 
 This is verified against all of our HTTP clients, conceding that it isn't going to help limited
 environments such as Google App Engine.

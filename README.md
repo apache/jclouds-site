@@ -1,6 +1,6 @@
 # Apache jclouds&reg;
 
-This repository supports the GitHub Pages site for jclouds. See and read more at [http://www.jclouds.org](http://www.jclouds.org).
+This repository supports the GitHub Pages site for jclouds. See and read more at [https://www.jclouds.org](https://www.jclouds.org).
 
 To test the site locally you will need to create the site build image with:
 

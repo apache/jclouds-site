@@ -30,13 +30,13 @@ In the directory with your Maven pom.xml file run the command
 
 This will tell you exactly what all of your dependencies are and all of their versions.
 
-To determine what JARs are actually being loaded when your application runs, read the answers to [How to find which jars and in what order are loaded by a classloader?](http://stackoverflow.com/questions/2179858/how-to-find-which-jars-and-in-what-order-are-loaded-by-a-classloader)
+To determine what JARs are actually being loaded when your application runs, read the answers to [How to find which jars and in what order are loaded by a classloader?](https://stackoverflow.com/questions/2179858/how-to-find-which-jars-and-in-what-order-are-loaded-by-a-classloader)
 
-If you're using Java 8, you can use the [jdeps](http://docs.oracle.com/javase/8/docs/technotes/tools/unix/jdeps.html) to analyze dependencies.
+If you're using Java 8, you can use the [jdeps](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jdeps.html) to analyze dependencies.
 
 ### <a id="source"></a>Source Code
 
-Having a look a the source code will tell you exactly what jclouds is doing. The source code can be viewed directly on [GitHub](https://github.com/apache/jclouds) or [downloaded](http://www.apache.org/dyn/closer.cgi/jclouds) from an ASF mirror repository.
+Having a look a the source code will tell you exactly what jclouds is doing. The source code can be viewed directly on [GitHub](https://github.com/apache/jclouds) or [downloaded](https://www.apache.org/dyn/closer.cgi/jclouds) from an ASF mirror repository.
 
 ## <a id="specfic"></a>Specific Solutions
 

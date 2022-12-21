@@ -4,7 +4,7 @@ title: "Azure Storage Service: Getting Started Guide"
 permalink: /guides/azure-storage/
 ---
 
-1. Sign up for an [Azure Account](http://www.microsoft.com/windowsazure/offers/)
+1. Sign up for an [Azure Account](https://www.microsoft.com/windowsazure/offers/)
 2. Get your account and key
 	* Login to the [Microsoft Azure Portal](https://manage.windowsazure.com). The [new portal](https://portal.azure.com) is in preview stage and hence instructions are not aligned with it.
 	* Click 'New', 'Data Servies', 'Storage' and 'Quick Create'.
