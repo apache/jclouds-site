@@ -61,7 +61,7 @@ You can also read the changelogs for [all versions](/releasenotes).
 {% capture m %}
 ## Maven configuration
 
-It is very easy to install jclouds using Apache Maven. If you're new to Maven, read <a href="http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html">Maven in 5 Minutes</a>.
+It is very easy to install jclouds using Apache Maven. If you're new to Maven, read <a href="https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html">Maven in 5 Minutes</a>.
 
 If you do not have a *pom.xml* file, you can copy and paste the one below. If your project already has a *pom.xml* file, just add the dependency section below into it.
 
@@ -125,7 +125,7 @@ Replace the *provider* and *api* in the above directory paths to the ones you wa
 {% capture m %}
 ## Ant configuration
 
-You will need to install [maven ant tasks](http://maven.apache.org/ant-tasks/index.html).
+You will need to install [maven ant tasks](https://maven.apache.org/ant-tasks/index.html).
 Then, add jclouds to your *build.xml* as shown below:
 
 {% highlight xml %}
@@ -138,7 +138,7 @@ Then, add jclouds to your *build.xml* as shown below:
 
 If you want to automate fetching the jclouds binaries, you can use the following Ant script.
 
-Install [ant](http://ant.apache.org/), copy the following into a *build.xml* file, tweaking things like 'provider' and 'driver' as necessary. The following example uses **jclouds-all**, **jclouds-sshj** as a driver, and includes the logback jars for a logging implementation.
+Install [ant](https://ant.apache.org/), copy the following into a *build.xml* file, tweaking things like 'provider' and 'driver' as necessary. The following example uses **jclouds-all**, **jclouds-sshj** as a driver, and includes the logback jars for a logging implementation.
 
 When you run this script with *ant*, it will build a *lib* directory full of jars you can later copy into your own project.
 
@@ -158,7 +158,7 @@ When you run this script with *ant*, it will build a *lib* directory full of jar
         </copy>
     </target>
 
-    <get src="http://search.maven.org/remotecontent?filepath=org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar"
+    <get src="https://search.maven.org/remotecontent?filepath=org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar"
          dest="maven-ant-tasks.jar"/>
 
     <target name="initmvn">

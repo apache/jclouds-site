@@ -7,7 +7,7 @@ permalink: /guides/google/
 ## <a id="intro"></a>Introduction
 This guide helps you to get started with [Google Cloud Platform](https://cloud.google.com/) development using jclouds.
 
-Currently, [Google Compute Engine](https://developers.google.com/compute/) is covered. This is a [compute service](http://jclouds.apache.org/start/compute/) that allows you to run vitual machines on Google's infrastructure. There is also an implementation of the [blob store](http://jclouds.apache.org/start/blobstore/) abstraction for managing key-value storage.
+Currently, [Google Compute Engine](https://developers.google.com/compute/) is covered. This is a [compute service](https://jclouds.apache.org/start/compute/) that allows you to run vitual machines on Google's infrastructure. There is also an implementation of the [blob store](https://jclouds.apache.org/start/blobstore/) abstraction for managing key-value storage.
 
 Working with the Google Cloud Platform requires a project. If you do not have a project yet, you can sign up via the [Developer Console](https://console.developers.google.com/). There is a free trial availible [here](https://cloud.google.com/free-trial/).
 

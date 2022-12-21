@@ -20,7 +20,7 @@ permalink: /guides/rackspace/
 14. [Support and Feedback](#support)
 
 ## <a id="intro"></a>Introduction
-The [Rackspace Cloud](http://www.rackspace.com/cloud/public/) platform includes everything you need to build websites and applications that scale servers, storage, networking, APIs, and more. The Rackspace Cloud is based on OpenStack, which is a global collaboration of developers and cloud computing technologists producing the ubiquitous open source cloud computing platform for public and private clouds.
+The [Rackspace Cloud](https://www.rackspace.com/cloud/public/) platform includes everything you need to build websites and applications that scale servers, storage, networking, APIs, and more. The Rackspace Cloud is based on OpenStack, which is a global collaboration of developers and cloud computing technologists producing the ubiquitous open source cloud computing platform for public and private clouds.
 
 This guide assumes you're familiar with Java and its technologies. To get started you'll need access to the Rackspace cloud and jclouds.
 
@@ -32,9 +32,9 @@ This guide assumes you're familiar with Java and its technologies. To get starte
 
 ## <a id="install"></a>Get jclouds
 
-1. Ensure you are using the [Java Development Kit (JDK) version 6 or later](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+1. Ensure you are using the [Java Development Kit (JDK) version 6 or later](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
     * `javac -version`
-1. Ensure you are using [Maven version 3 or later](http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html).
+1. Ensure you are using [Maven version 3 or later](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html).
     * `mvn -version`
 1. Create a directory to try out jclouds.
     * `mkdir jclouds`
@@ -99,7 +99,7 @@ There are some differences in terminology between jclouds and Rackspace/OpenStac
 ## <a id="files"></a>Your First Cloud Files App
 ### <a id="files-intro"></a>Introduction
 
-[Cloud Files](http://www.rackspace.com/cloud/public/files/) is an easy to use online storage for files and media which can be delivered globally over Akamai's content delivery network (CDN).
+[Cloud Files](https://www.rackspace.com/cloud/public/files/) is an easy to use online storage for files and media which can be delivered globally over Akamai's content delivery network (CDN).
 
 ### <a id="files-apis"></a>APIs
 
@@ -108,7 +108,7 @@ Cloud Files works with a portable layer in jclouds that is used to access featur
 1. The portable API for Cloud Files is org.jclouds.blobstore.BlobStore.
 1. The OpenStack API for Cloud Files is org.jclouds.openstack.swift.CommonSwiftClient.
 1. The Rackspace API for Cloud Files is org.jclouds.cloudfiles.CloudFilesClient.
-1. You can find these APIs in the latest [Javadoc](http://demobox.github.com/jclouds-maven-site/latest/apidocs).
+1. You can find these APIs in the latest [Javadoc](https://demobox.github.com/jclouds-maven-site/latest/apidocs).
 
 ### <a id="files-source"></a>The Source Code
 
@@ -138,12 +138,12 @@ Cloud Files works with a portable layer in jclouds that is used to access featur
     Create Object From File
       createObjectFromFile.html
     Enable CDN Container
-      Go to http://blah.rackcdn.com/createObjectFromFile.html
+      Go to https://blah.rackcdn.com/createObjectFromFile.html
 
 ## <a id="servers"></a>Your First Cloud Servers App
 ### <a id="servers-intro"></a>Introduction
 
-[Cloud Servers](http://www.rackspace.com/cloud/public/servers/) is an easy to use service that provides on-demand servers that you can use to to build dynamic websites, deliver mobile apps, or crunch big data.
+[Cloud Servers](https://www.rackspace.com/cloud/public/servers/) is an easy to use service that provides on-demand servers that you can use to to build dynamic websites, deliver mobile apps, or crunch big data.
 
 ### <a id="servers-apis"></a>APIs
 
@@ -151,7 +151,7 @@ Cloud Servers works with a portable layer in jclouds that is used to access feat
 
 1. The portable API for Cloud Servers is org.jclouds.compute.ComputeService.
 1. The OpenStack API for Cloud Servers is the org.jclouds.openstack.nova.v2_0.features.ServerApi. It's accessible via the org.jclouds.openstack.nova.v2_0.NovaApi.
-1. You can find these APIs in the latest [Javadoc](http://demobox.github.com/jclouds-maven-site/latest/apidocs).
+1. You can find these APIs in the latest [Javadoc](https://demobox.github.com/jclouds-maven-site/latest/apidocs).
 
 ### <a id="servers-source"></a>The Source Code
 
@@ -187,14 +187,14 @@ Cloud Servers works with a portable layer in jclouds that is used to access feat
 ## <a id="volumes"></a>Working with Cloud Block Storage
 ### <a id="volumes-intro"></a>Introduction
 
-[Cloud Block Storage](http://www.rackspace.com/cloud/public/blockstorage/) allows you to create volumes on which to persistently store your data from your servers, even when those servers have been deleted. It delivers consistent performance for your I/O-intensive applications.
+[Cloud Block Storage](https://www.rackspace.com/cloud/public/blockstorage/) allows you to create volumes on which to persistently store your data from your servers, even when those servers have been deleted. It delivers consistent performance for your I/O-intensive applications.
 
 ### <a id="volumes-apis"></a>APIs
 
 Cloud Block Storage works with the OpenStack layer in jclouds that is used to access features common to all OpenStack Cinder block storage systems.
 
 1. The OpenStack API for Cloud Block Storage is the org.jclouds.openstack.cinder.v1.CinderApi. All other APIs for working with block storage are accessible via the CinderApi.
-1. You can find these APIs in the latest [Javadoc](http://demobox.github.com/jclouds-maven-site/latest/apidocs).
+1. You can find these APIs in the latest [Javadoc](https://demobox.github.com/jclouds-maven-site/latest/apidocs).
 
 ### <a id="volumes-source"></a>The Source Code
 
@@ -235,14 +235,14 @@ Cloud Block Storage works with the OpenStack layer in jclouds that is used to ac
 ## <a id="loadbalancers"></a>Working with Cloud Load Balancers
 ### <a id="loadbalancers-intro"></a>Introduction
 
-[Cloud Load Balancers](http://www.rackspace.com/cloud/public/loadbalancers/) distributes workloads across two or more servers, network links, and other resources to maximize throughput, minimize response time, and avoid overload. Rackspace Cloud Load Balancers allow you to quickly load balance multiple Cloud Servers for optimal resource utilization.
+[Cloud Load Balancers](https://www.rackspace.com/cloud/public/loadbalancers/) distributes workloads across two or more servers, network links, and other resources to maximize throughput, minimize response time, and avoid overload. Rackspace Cloud Load Balancers allow you to quickly load balance multiple Cloud Servers for optimal resource utilization.
 
 ### <a id="loadbalancers-apis"></a>APIs
 
 Cloud Load Balancers works with the Rackspace layer in jclouds that is used to access features specific to the Rackspace load balancer system.
 
 1. The Rackspace API for Cloud Load Balancers is org.jclouds.rackspace.cloudloadbalancers.CloudLoadBalancersApi.  All other APIs for working with load balancers are accessible via the CloudLoadBalancersApi.
-1. You can find these APIs in the latest [Javadoc](http://demobox.github.com/jclouds-maven-site/latest/apidocs).
+1. You can find these APIs in the latest [Javadoc](https://demobox.github.com/jclouds-maven-site/latest/apidocs).
 
 ### <a id="loadbalancers-source"></a>The Source Code
 
@@ -274,7 +274,7 @@ Cloud Load Balancers works with the Rackspace layer in jclouds that is used to a
 ## <a id="databases"></a>Working with Cloud Databases
 ### <a id="databases-intro"></a>Introduction
 
-[Cloud Databases](http://www.rackspace.com/cloud/databases/) provides easily managed cloud MySQL instances with built-in data replication for speed and reliability.
+[Cloud Databases](https://www.rackspace.com/cloud/databases/) provides easily managed cloud MySQL instances with built-in data replication for speed and reliability.
 
 ### <a id="databases-apis"></a>APIs
 
@@ -314,7 +314,7 @@ In addition to the create database instance example, by going through the cloudd
 ## <a id="autoscale"></a>Working with Cloud Auto Scale
 ### <a id="autoscale-intro"></a>Introduction
 
-[Cloud Auto Scale](http://www.rackspace.com/cloud/auto-scale/) takes the work out of capacity planning, allowing Rackspace Cloud Monitoring alerts or scheduled events to create and delete servers. Through the use of webhooks, Auto Scale can be integrated into countless deployment scenarios. Read the dev blog [here](http://developer.rackspace.com/blog/rackspace-autoscale-is-now-open-source.html).
+[Cloud Auto Scale](https://www.rackspace.com/cloud/auto-scale/) takes the work out of capacity planning, allowing Rackspace Cloud Monitoring alerts or scheduled events to create and delete servers. Through the use of webhooks, Auto Scale can be integrated into countless deployment scenarios. Read the dev blog [here](https://developer.rackspace.com/blog/rackspace-autoscale-is-now-open-source.html).
 
 ### <a id="autoscale-apis"></a>APIs
 
@@ -355,7 +355,7 @@ In addition to the CreatePolicy example, by going through the Auto Scale example
 ## <a id="queues"></a>Working with Cloud Queues
 ### <a id="queues-intro"></a>Introduction
 
-[Cloud Queues](http://www.rackspace.com/cloud/queues/) easily connect distributed applications without installing complex software. Create unlimited queues quickly and send unlimited messages.
+[Cloud Queues](https://www.rackspace.com/cloud/queues/) easily connect distributed applications without installing complex software. Create unlimited queues quickly and send unlimited messages.
 
 ### <a id="queues-apis"></a>APIs
 

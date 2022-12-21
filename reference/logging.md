@@ -15,7 +15,7 @@ By default, jclouds does no logging whatsoever for maximum performance.
 
 ## <a id="install"></a>Install Logging
 
-[SLF4J](http://www.slf4j.org/) is the logging facade for jclouds. To use SLF4J you need the jclouds-slf4j-X.X.X.jar and the implementation logback-*.jar ([download](http://logback.qos.ch/download.html)) files on your classpath. To get them via Maven add the following dependencies to your pom.xml file.
+[SLF4J](https://www.slf4j.org/) is the logging facade for jclouds. To use SLF4J you need the jclouds-slf4j-X.X.X.jar and the implementation logback-*.jar ([download](https://logback.qos.ch/download.html)) files on your classpath. To get them via Maven add the following dependencies to your pom.xml file.
 
 {% highlight xml %}
 <dependencies>
@@ -138,7 +138,7 @@ MyApi myApi = ContextBuilder.newBuilder("my-cloud-provider")
 
 This is optional and not necessary for regular jclouds logging.
 
-There may be times when you need to see every bit and byte being sent with jclouds to/from a cloud provider. To do this you can use an HTTP(S) proxy to capture all traffic that's being transmitted, like [Charles Proxy](http://www.charlesproxy.com/) or [Fiddler](http://www.telerik.com/fiddler).
+There may be times when you need to see every bit and byte being sent with jclouds to/from a cloud provider. To do this you can use an HTTP(S) proxy to capture all traffic that's being transmitted, like [Charles Proxy](https://www.charlesproxy.com/) or [Fiddler](https://www.telerik.com/fiddler).
 
 For example, to work with an HTTPS endpoint of a cloud provider using Charles you need to enable SSL Proxying:
 

@@ -4,7 +4,7 @@ title: "Docker: Getting Started Guide"
 permalink: /guides/docker/
 ---
 
-jclouds-docker is a local cloud provider modelled on [docker](http://www.docker.io). Similar to other jclouds supported
+jclouds-docker is a local cloud provider modelled on [docker](https://www.docker.io). Similar to other jclouds supported
 providers, it supports the same portable abstractions offered by jclouds.
 
 ![jclouds docker architecture](/img/jclouds-docker.png)
@@ -15,7 +15,7 @@ This involves [dockerizing an SSH daemon service](https://docs.docker.com/exampl
 
 ### Give it a try!
 
-* Install [Docker](http://docs.docker.com/installation/)
+* Install [Docker](https://docs.docker.com/installation/)
 * Ensure you are using a recent JDK 7
 * Setup your project to include `docker`
 	* Get the dependency `org.apache.jclouds.labs/docker` using jclouds [Installation](/start/install).

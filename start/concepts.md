@@ -11,7 +11,7 @@ permalink: /start/concepts/
 
 ## <a id="views"></a>Views
 
-[**Views**](http://jclouds-javadocs.elasticbeanstalk.com/org/jclouds/View.html) are portable abstractions that are designed to allow you to write code that uses cloud services without tying yourself to a specific vendor. Take [JDBC](http://docs.oracle.com/javase/7/docs/technotes/guides/jdbc/index.html) as an example: rather than writing code directly for a specific type of database, you can make generic database requests, and the JDBC specification and drivers translate these into specific commands and statements for a certain type of database.
+[**Views**](http://jclouds-javadocs.elasticbeanstalk.com/org/jclouds/View.html) are portable abstractions that are designed to allow you to write code that uses cloud services without tying yourself to a specific vendor. Take [JDBC](https://docs.oracle.com/javase/7/docs/technotes/guides/jdbc/index.html) as an example: rather than writing code directly for a specific type of database, you can make generic database requests, and the JDBC specification and drivers translate these into specific commands and statements for a certain type of database.
 
 Views generally make sense only once a reasonably broad set of functionality is supported by multiple vendors. In the cloud space, jclouds currently supports three such views:
 

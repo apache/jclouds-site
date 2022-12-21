@@ -18,7 +18,7 @@ The following is the list of providers that are supported by the jclouds API.
 ## <a id="compute"></a>ComputeService
 ### <a id="compute-providers"></a>Providers
 
-The Maven Group ID for all supported providers below is [org.apache.jclouds.provider](http://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.provider). Providers in labs (denoted by \*) are under [org.apache.jclouds.labs](http://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.labs).
+The Maven Group ID for all supported providers below is [org.apache.jclouds.provider](https://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.provider). Providers in labs (denoted by \*) are under [org.apache.jclouds.labs](https://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.labs).
 
 <table class="table table-striped table-hover">
     <thead>
@@ -160,22 +160,22 @@ The Maven Group ID for all supported providers below is [org.apache.jclouds.prov
             <td>DE-BW,DE-HE,US-NV</td>
         </tr>
         <tr>
-            <td>Rackspace UK (<a href="http://www.rackspace.com/knowledge_center/article/next-gen-vs-first-gen-feature-comparison">First Gen</a>)</td>
+            <td>Rackspace UK (<a href="https://www.rackspace.com/knowledge_center/article/next-gen-vs-first-gen-feature-comparison">First Gen</a>)</td>
             <td>cloudservers-uk</td>
             <td>GB-SLG</td>
         </tr>
         <tr>
-            <td>Rackspace US (<a href="http://www.rackspace.com/knowledge_center/article/next-gen-vs-first-gen-feature-comparison">First Gen</a>)</td>
+            <td>Rackspace US (<a href="https://www.rackspace.com/knowledge_center/article/next-gen-vs-first-gen-feature-comparison">First Gen</a>)</td>
             <td>cloudservers-us</td>
             <td>US-IL,US-TX</td>
         </tr>
         <tr>
-            <td><a href="/guides/rackspace/">Rackspace UK</a> (<a href="http://www.rackspace.com/knowledge_center/article/next-gen-vs-first-gen-feature-comparison">Next Gen</a>)</td>
+            <td><a href="/guides/rackspace/">Rackspace UK</a> (<a href="https://www.rackspace.com/knowledge_center/article/next-gen-vs-first-gen-feature-comparison">Next Gen</a>)</td>
             <td>rackspace-cloudservers-uk</td>
             <td>GB-SLG</td>
         </tr>
         <tr>
-            <td><a href="/guides/rackspace/">Rackspace US</a> (<a href="http://www.rackspace.com/knowledge_center/article/next-gen-vs-first-gen-feature-comparison">Next Gen</a>)</td>
+            <td><a href="/guides/rackspace/">Rackspace US</a> (<a href="https://www.rackspace.com/knowledge_center/article/next-gen-vs-first-gen-feature-comparison">Next Gen</a>)</td>
             <td>rackspace-cloudservers-us</td>
             <td>US-IL,US-TX</td>
         </tr>
@@ -201,7 +201,7 @@ The Maven Group ID for all supported providers below is [org.apache.jclouds.prov
 
 You can also set the context property `[Artifact ID].endpoint` to use the following APIs for your private cloud.
 
-The Maven Group ID for all supported APIs below is [org.apache.jclouds.api](http://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.api). Providers in labs (denoted by \*) are under [org.apache.jclouds.labs](http://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.labs).
+The Maven Group ID for all supported APIs below is [org.apache.jclouds.api](https://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.api). Providers in labs (denoted by \*) are under [org.apache.jclouds.labs](https://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.labs).
 
 <table class="table table-striped table-hover">
     <thead>
@@ -254,7 +254,7 @@ The Maven Group ID for all supported APIs below is [org.apache.jclouds.api](http
 ## <a id="blobstore"></a>BlobStore
 ### <a id="blobstore-providers"></a>Providers
 
-The Maven Group ID for all supported providers below is [org.apache.jclouds.provider](http://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.provider). Providers in labs (denoted by \*) are under [org.apache.jclouds.labs](http://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.labs).
+The Maven Group ID for all supported providers below is [org.apache.jclouds.provider](https://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.provider). Providers in labs (denoted by \*) are under [org.apache.jclouds.labs](https://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.labs).
 
 <table class="table table-striped table-hover">
     <thead>
@@ -295,7 +295,7 @@ The Maven Group ID for all supported providers below is [org.apache.jclouds.prov
 
 You can also set the context property `[Artifact ID].endpoint` to use the following APIs for your private cloud.
 
-The Maven Group ID for all supported APIs below is [org.apache.jclouds.api](http://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.api). Providers in labs (denoted by \*) are under [org.apache.jclouds.labs](http://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.labs).
+The Maven Group ID for all supported APIs below is [org.apache.jclouds.api](https://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.api). Providers in labs (denoted by \*) are under [org.apache.jclouds.labs](https://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.labs).
 
 <table class="table table-striped table-hover">
     <thead>
@@ -327,7 +327,7 @@ The Maven Group ID for all supported APIs below is [org.apache.jclouds.api](http
 ## <a id="loadbalancer"></a>LoadBalancer (Beta)
 ### <a id="loadbalancer-providers"></a>Providers
 
-The Maven Group ID for all supported providers below is [org.apache.jclouds.provider](http://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.provider). Providers in labs (denoted by \*) are under [org.apache.jclouds.labs](http://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.labs).
+The Maven Group ID for all supported providers below is [org.apache.jclouds.provider](https://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.provider). Providers in labs (denoted by \*) are under [org.apache.jclouds.labs](https://search.maven.org/#search%7Cga%7C1%7Corg.apache.jclouds.labs).
 
 <table class="table table-striped table-hover">
     <thead>

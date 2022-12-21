@@ -105,6 +105,6 @@ Known Issues
 Resources
 ---------
 * [Glacier information](https://aws.amazon.com/glacier/)
-* [API reference](http://docs.aws.amazon.com/amazonglacier/latest/dev/amazon-glacier-api.html)
-* [About Inventories](http://aws.amazon.com/glacier/faqs/#data-inventories)
-* [Job options](http://docs.aws.amazon.com/amazonglacier/latest/dev/api-initiate-job-post.html)
+* [API reference](https://docs.aws.amazon.com/amazonglacier/latest/dev/amazon-glacier-api.html)
+* [About Inventories](https://aws.amazon.com/glacier/faqs/#data-inventories)
+* [Job options](https://docs.aws.amazon.com/amazonglacier/latest/dev/api-initiate-job-post.html)
