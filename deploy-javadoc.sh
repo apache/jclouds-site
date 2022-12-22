@@ -22,28 +22,12 @@ JCLOUDS_VERSION_X=`echo $JCLOUDS_VERSION | cut -c 1-3 | awk '{print $1".x"}'`
 
 cd $TMPDIR
 
-for name in jclouds jclouds-labs-openstack; do
+for name in jclouds; do
   rm -rf ${name}
   git clone --branch rel/${name}-${JCLOUDS_VERSION} --depth 1 https://git-wip-us.apache.org/repos/asf/${name}.git
   cd ${name}
   git checkout rel/${name}-${JCLOUDS_VERSION}
   cd ..
-done
-
-apis="openstack-glance openstack-marconi rackspace-autoscale"
-
-for api in ${apis}; do
-  mv jclouds-labs-openstack/${api} jclouds/apis/
-  sed "s#<module>route53</module>#<module>route53</module><module>${api}</module>#g" < jclouds/apis/pom.xml > tmp
-  mv tmp jclouds/apis/pom.xml
-done
-
-providers="rackspace-autoscale-us rackspace-cloudqueues-us rackspace-cloudqueues-uk"
-
-for provider in ${providers}; do
-  mv jclouds-labs-openstack/${provider} jclouds/providers/
-  sed "s#<module>dynect</module>#<module>dynect</module><module>${provider}</module>#g" < jclouds/providers/pom.xml > tmp
-  mv tmp jclouds/providers/pom.xml
 done
 
 cd jclouds
