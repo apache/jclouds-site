@@ -1,7 +1,7 @@
 FROM ruby:2.2.5
 
 RUN apt-get update && \
-    apt-get install -y rsync
+    apt-get install -y --force-yes rsync
 
 RUN gem install ffi -v 1.12.2 && \
     gem install jekyll -v 1.5.1 && \
