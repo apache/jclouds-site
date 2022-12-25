@@ -5,11 +5,11 @@ image:  ## Build the Docker image with all requirements to build and publish the
 	docker build -t $(IMAGE) .
 
 build:  ## Build and run the site locally
-	docker run --rm -v "${PWD}:$(MOUNTPOINT)" -p 4000:4000 $(IMAGE) jekyll serve --safe --port 4000
+	docker run --rm -v "$(CURDIR):$(MOUNTPOINT)" -p 4000:4000 $(IMAGE) jekyll serve --safe --port 4000
 
 publish:  ## Publish the site to https://jclouds.apache.org
 	rm -rf site-content
-	docker run --rm -ti -v "${PWD}:$(MOUNTPOINT)" $(IMAGE) bash deploy-site.sh
+	docker run --rm -ti -v "$(CURDIR):$(MOUNTPOINT)" $(IMAGE) bash deploy-site.sh
 
 help:  ## Display this help
 	@awk 'BEGIN {FS = ":.*##"; printf "Usage:\n    make \033[36m<target>\033[0m\n\nAvailable targets:\n"} \
