@@ -1,7 +1,7 @@
 IMAGE := jclouds/site-builder
 MOUNTPOINT := /jclouds-site
 
-image:  ## Build the Docker image with all requirements to build and publish the sire
+image:  ## Build the Docker image with all requirements to build and publish the site
 	docker build -t $(IMAGE) .
 
 build:  ## Build and run the site locally
