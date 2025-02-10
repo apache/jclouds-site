@@ -5,7 +5,7 @@ image:  ## Build the Docker image with all requirements to build and publish the
 	docker build -t $(IMAGE) .
 
 build:  ## Build and run the site locally
-	docker run --rm -v "$(CURDIR):$(MOUNTPOINT)" -p 4000:4000 $(IMAGE) jekyll serve --safe --port 4000
+	docker run --rm -v "$(CURDIR):$(MOUNTPOINT)" -p 4000:4000 $(IMAGE) jekyll serve --safe --host 0.0.0.0 --port 4000
 
 publish:  ## Publish the site to https://jclouds.apache.org
 	rm -rf site-content

@@ -1,7 +1,8 @@
 url: https://jclouds.apache.org
 title: Apache jclouds
-markdown: rdiscount
+markdown: kramdown
 pygments: true
+plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: "blog/page:num"
 permalink: /blog/:categories/:year/:month/:day/:title

@@ -5,12 +5,12 @@
 # Build the site using the default Jekyll version:
 # $ ./deploy-site.sh [username] [password]
 
-JEKYLL_VERSION=1.5.1
+JEKYLL_VERSION=4.4.1
 
 # Verify that the configured version of Jekyll is installed
 jekyll _${JEKYLL_VERSION}_ --version >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
-    echo "Jekyll ${JEKYLL_VERSION} is required"
+    echo "Jekyll ${JEKYLL_VERSION} is required, found $(jekyll --version)"
     exit 1
 fi
 
