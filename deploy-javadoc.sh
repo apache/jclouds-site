@@ -55,7 +55,7 @@ else
     svn status
 
     read -p "Are you sure you want to deploy the above changes? (y|n) "
-    [[ ${REPLY} == "y" ]] || exit 0 ]]
+    [[ ${REPLY} == "y" ]] || exit 0
     
     echo
 
