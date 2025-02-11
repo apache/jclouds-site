@@ -20,6 +20,8 @@ fi
 JCLOUDS_VERSION=$1
 JCLOUDS_VERSION_X=`echo $JCLOUDS_VERSION | cut -c 1-3 | awk '{print $1".x"}'`
 
+TMPDIR="$PWD/tmp"
+mkdir $TMPDIR
 cd $TMPDIR
 
 for name in jclouds; do
@@ -39,7 +41,7 @@ if [ ! -d "site-content" ]; then
 else
   svn up site-content
 fi
-cd $DIR/site-content
+cd site-content
 
 mkdir -p reference/javadoc/$JCLOUDS_VERSION_X/
 rsync -r --ignore-times $TMPDIR/jclouds/target/site/apidocs/ reference/javadoc/$JCLOUDS_VERSION_X/
