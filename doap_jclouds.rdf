@@ -26,7 +26,7 @@
     <license rdf:resource="http://usefulinc.com/doap/licenses/asl20" />
     <name>Apache jclouds</name>
     <homepage rdf:resource="http://jclouds.apache.org" />
-    <asfext:pmc rdf:resource="http://jclouds.apache.org" />
+    <asfext:pmc rdf:resource="http://attic.apache.org" />
     <shortdesc>The Java Multi-Cloud Toolkit</shortdesc>
     <description>Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.</description>
     <bug-database rdf:resource="https://issues.apache.org/jira/browse/JCLOUDS" />
@@ -35,6 +35,7 @@
     <programming-language>Java</programming-language>
     <category rdf:resource="http://projects.apache.org/category/cloud" />
     <category rdf:resource="http://projects.apache.org/category/library" />
+    <category rdf:resource="http://projects.apache.org/category/retired" />
     <release>
       <Version>
         <name>Apache jclouds 2.7.0</name>
